@@ -13,7 +13,7 @@
 ##' \item 5: uncertain positive drift dive
 ##' }
 ##' It can be expanded to include other kind of dives.
-##' @title Dive examination
+##' @title Visual dive examination
 ##' @param cand Summarized dive profile/s (class 'data.frame')
 ##' @param sel High resolution dive profile/s (class 'data.frame')
 ##' @param capture Logical. If TRUE, a numeric argument must be imputed for classification (e.g. 1 = non drift, 2, negative drift and so on). If this process is not followed until the end, it will generate an error, thus it is strongly recommended to classify dives in small bacthes of as much as 500. 
