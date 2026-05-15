@@ -9,7 +9,7 @@
 ##' @return A Data frame with two extra columns added: the corrected depth and the dive number
 ##' @author Simon Wotherspoon
 ##' @author Fer Arce
-Zocing <- function(Data,thres = 10, overwrite=TRUE, Cut){
+Zocing <- function(Data,thres = 10, overwrite=FALSE, Cut){
     ti <- "6 hours" ## time interval to cut the file
     ct <- cut(Data$Date, ti) ## runs the zocing function for all time intervals.
     ## Unlist reformats the tappply output
